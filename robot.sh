@@ -13,7 +13,7 @@ case $1 in
 Arguments:
 none    When run as ./cylon.sh without an argument, run setup then example 1.
 help    Display this help information.
-setup   Upload firmata software to arduino so that cylon.js can communicate via the Firmata protocol
+setup   Upload Firmata firmware to Arduino so that cylon.js can communicate via the Firmata protocol.
 1       Run the first robot example.
 5       Run the fifth robot example.
 ";;
