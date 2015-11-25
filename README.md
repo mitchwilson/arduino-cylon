@@ -51,3 +51,7 @@ The cylon.js examples are in the robot directory and can be run using robot.sh. 
 ### Run robot 5
 
 ./robot.sh 5
+
+## References
+
+[Arduino manpage.doc](https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc)

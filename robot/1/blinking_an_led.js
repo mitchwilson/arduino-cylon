@@ -1,18 +1,9 @@
-var cylon = require('cylon');
 var config = require('../config.json');
+var cylon = require('cylon');
+var devices = require('./devices.json');
 cylon.robot({
-    connections: {
-        arduino: {
-            adaptor: 'firmata',
-            port: config.port
-        }
-    },
-    devices: {
-        led: {
-            driver: 'led',
-            pin: 13
-        }
-    },
+    connections: config.connections,
+    devices: devices,
     work: function(my) {
         every((1).second(), function() {
             my.led.toggle();

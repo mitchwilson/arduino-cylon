@@ -1,26 +1,9 @@
 var config = require('../config.json');
 var cylon = require('cylon');
-var lastButton = false;
-var flipState = false;
-var currentButton = false;;
-
+var devices = require('./devices.json');
 cylon.robot({
-    connections: {
-        arduino: {
-            adaptor: config.adaptor,
-            port: config.port
-        }
-    },
-    devices: {
-        button: {
-            driver: 'button',
-            pin: 8
-        },
-        led: {
-            driver: 'led',
-            pin: 13
-        }
-    },
+    connections: config.connections,
+    devices: devices,
     work: function(my) {
         my.button.on('push', function() {
             setTimeout(function() {

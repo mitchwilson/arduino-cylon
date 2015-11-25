@@ -1,5 +1,9 @@
 {
-    "adaptor": "firmata",
     "arduino": "/Applications/Arduino.app/Contents/MacOS/Arduino",
-    "port": "/dev/cu.usbserial-A603B2SI"
+    "connections": {
+        "arduino": {
+            "adaptor": "firmata",
+            "port": "/dev/cu.usbserial-A603B2SI"
+        }
+    }
 }

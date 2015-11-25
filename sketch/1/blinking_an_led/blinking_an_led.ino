@@ -1,11 +1,12 @@
 
-int ledPin = 13;
+#include "./devices.h"
+
 int delayTime = 1000;
 
 void blink() {
-  digitalWrite(ledPin, HIGH);
+  digitalWrite(LED_PIN, HIGH);
   delay(delayTime);
-  digitalWrite(ledPin, LOW);
+  digitalWrite(LED_PIN, LOW);
   delay(delayTime);
 }
 
@@ -14,5 +15,5 @@ void loop() {
 }
 
 void setup() {
-  pinMode(ledPin, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
 }

@@ -1,0 +1,10 @@
+{
+    "button": {
+        "driver": "button",
+        "pin": 8
+    },
+    "led": {
+        "driver": "led",
+        "pin": 13
+    }
+}

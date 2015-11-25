@@ -1,6 +1,5 @@
 // Turn led on/off using button switch.
-const int BUTTON_PIN = 8;
-const int LED_PIN = 13;
+#include "./devices.h"
 boolean lastButton = LOW;
 
 // Flip led state if someone just pressed the button.
