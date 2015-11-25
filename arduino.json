@@ -1,5 +1,4 @@
 {
-    "arduino": "/Applications/Arduino.app/Contents/MacOS/Arduino",
     "connections": {
         "arduino": {
             "adaptor": "firmata",
