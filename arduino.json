@@ -1,0 +1,29 @@
+{
+    "arduino": "/Applications/Arduino.app/Contents/MacOS/Arduino",
+    "connections": {
+        "arduino": {
+            "adaptor": "firmata",
+            "port": "/dev/cu.usbserial-A603B2SI"
+        }
+    },
+    "one": {
+        "devices": {
+            "led": {
+                "driver": "led",
+                "pin": 13
+            }
+        }
+    },
+    "five": {
+        "devices": {
+            "button": {
+                "driver": "button",
+                "pin": 8
+            },
+            "led": {
+                "driver": "led",
+                "pin": 13
+            }
+        }
+    }
+}

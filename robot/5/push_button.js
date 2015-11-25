@@ -1,14 +1,13 @@
-var config = require('../config.json');
+var arduino = require('../../arduino.json');
 var cylon = require('cylon');
-var devices = require('./devices.json');
 cylon.robot({
-    connections: config.connections,
-    devices: devices,
+    connections: arduino.connections,
+    devices: arduino.five.devices,
     work: function(my) {
         my.button.on('push', function() {
             setTimeout(function() {
                 my.led.toggle();
-            }, 10)
+            }, 10);
         });
     }
 }).start();

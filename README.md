@@ -14,7 +14,7 @@
 * Run npm install
 * Run gort to get your local arduino's serial port
 * Determine your local path to Arduino software
-* Update robot.conf and sketch.conf with your local settings
+* Update arduino.json, robot.conf and sketch.conf with your local settings
 
 ## Arduino Examples
 
