@@ -1,2 +1,2 @@
-const int BUTTON_PIN = 8;
-const int LED_PIN = 13;
+int BUTTON_PIN = 8;
+int LED_PIN = 11;

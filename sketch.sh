@@ -2,6 +2,7 @@
 source sketch.conf;
 case $1 in
     "1") $ARDUINO_PATH --upload $SKETCH_1;;
+    "2") $ARDUINO_PATH --upload $SKETCH_2;;
     "5") $ARDUINO_PATH --upload $SKETCH_5;;
     "help") echo "Usage: ./arduino.sh
 ./arduino.sh help

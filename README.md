@@ -35,6 +35,10 @@ The Arduino examples are in the sketch directory and can be run using sketch.sh.
 
 ./sketch.sh 1
 
+### Run sketch 2
+
+./sketch.sh 2
+
 ### Run robot 5
 
 ./sketch.sh 5
@@ -55,6 +59,10 @@ The cylon.js examples are in the robot directory and can be run using robot.sh. 
 
 ./robot.sh 1
 
+### Run robot 2
+
+./robot.sh 2
+
 ### Run robot 5
 
 ./robot.sh 5
@@ -62,4 +70,6 @@ The cylon.js examples are in the robot directory and can be run using robot.sh. 
 
 ## References
 
+[SIK Experiment Guide for Arduino - V3.2](https://learn.sparkfun.com/tutorials/sik-experiment-guide-for-arduino---v32/all)
+[Arduino Built-In Examples](https://www.arduino.cc/en/Tutorial/BuiltInExamples)
 [Arduino manpage.doc](https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc)

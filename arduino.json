@@ -9,7 +9,23 @@
         "devices": {
             "led": {
                 "driver": "led",
-                "pin": 13
+                "pin": 11
+            }
+        }
+    },
+    "two": {
+        "devices": {
+            "button": {
+                "driver": "button",
+                "pin": 8
+            },
+            "sensor": {
+                "driver": "analog-sensor",
+                "pin": "0"
+            },
+            "led": {
+                "driver": "led",
+                "pin": "11"
             }
         }
     },
@@ -21,7 +37,7 @@
             },
             "led": {
                 "driver": "led",
-                "pin": 13
+                "pin": 11
             }
         }
     }
